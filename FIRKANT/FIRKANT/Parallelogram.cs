@@ -1,12 +1,14 @@
 ﻿
 namespace FIRKANT
 {
+    //Parallelomgram inheritance from Shape
     internal class Parallelogram : Shape
     {
         private double sideA;
         private double sideB;
         private double angleInRadians;
 
+        //name, 4 and Length is from Shape. In this class we create SideA, SideB and AngleInRadians
         public Parallelogram(string name, double Length, double sideB, double angleInDegrees) : base(name, 4, (int)Length)
         {
             SideA = Length;
@@ -14,6 +16,7 @@ namespace FIRKANT
             AngleInRadians = angleInDegrees * Math.PI / 180.0;
         }
 
+        //properties
         public double SideA
         {
             get { return sideA; }
