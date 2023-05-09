@@ -16,7 +16,7 @@ namespace FIRKANT
             this.sideB = sideB;
             this.hypotenuse = hypotenuse;
         }
-
+        //properties
         public double SideA
         {
             get { return sideA; }
@@ -35,11 +35,13 @@ namespace FIRKANT
             set { hypotenuse = value; }
         }
 
+        //overriding GetPerimeter method 
         public override double GetPerimeter()
         {
             return SideA + SideB + Hypotenuse;
         }
 
+        //overriding GetArea method
         public override double GetArea()
         {
             return 0.5 * SideA * SideB;
