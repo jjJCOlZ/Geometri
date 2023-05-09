@@ -7,7 +7,7 @@ namespace FIRKANT
     {
         static void Main(string[] args)
         {
-            //Liste med shapes
+            //Creating a list with objects from Shape (Triangle, Trapeze, Square, Rectangle & Parallelogram)
             List<Shape> shapes = new List<Shape>();
 
             //Square

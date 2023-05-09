@@ -2,6 +2,7 @@
 
 namespace FIRKANT
 {
+    //Square inheritance from Shape
     internal class Square : Shape
     {
         public Square(string name, int numberOfSides, int Length) : base(name, numberOfSides, Length)
