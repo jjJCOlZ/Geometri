@@ -9,8 +9,10 @@ using System;
 
 namespace FIRKANT
 {
+    //Trapeze inheritance from Shape
     internal class Trapeze : Shape
     {
+        //properties
         public int LengthB { get; set; }
         public int LengthC { get; set; }
         public int LengthD { get; set; }

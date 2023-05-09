@@ -30,6 +30,8 @@ namespace FIRKANT
             Trapeze trapezeOne = new Trapeze("TrapezeOne", 4, 1, 3, 6, 9);
             shapes.Add(trapezeOne);
 
+            
+            //Trapaze
             Triangle triangleOne = new Triangle("TriangleOne", 3, 4, 5);
             shapes.Add(triangleOne);
 

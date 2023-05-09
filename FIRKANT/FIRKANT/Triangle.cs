@@ -2,6 +2,7 @@
 
 namespace FIRKANT
 {
+    //Triangle inheritance from Shape
     internal class Triangle : Shape
     {
         //Adding new variables: sideA, sideB and hypotenuse
@@ -22,13 +23,13 @@ namespace FIRKANT
             get { return sideA; }
             set { sideA = value; }
         }
-
+        //properties
         public double SideB
         {
             get { return sideB; }
             set { sideB = value; }
         }
-
+        //properties
         public double Hypotenuse
         {
             get { return hypotenuse; }
