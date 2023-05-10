@@ -17,12 +17,12 @@ namespace FIRKANT
         {
             LengthB = LengthB;
         }
-
+//override GetArea method inheritanced from Shape
         public override double GetArea()
         {
             return Length * LengthB;
         }
-
+//override GetPerimeter method inheritanced from Shape
         public override double GetPerimeter()
         {
             return 2 * (Length + LengthB);
